@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nav-bar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    
+}
+.logo{
+    background-image:url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/*box2*/
+
+.nav-add{
+    height: 50px;
+    width: 150px;
+   
+    
+   
+}
+.location-icon{
+display: flex;
+justify-content: center;
+
+}
+#deli{
+    font-size: 0.85rem;
+    margin-left: 14px;
+    color: #cccccc;
+    margin-top: 5px;
+}
+#add{
+    font-size: 0.9rem;
+
+    font-weight: 700;
+}
+/*box3*/
+.nav-search{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border: none;
+    margin-left: 5px;
+}
+
+.all{
+    width: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    border: none;
+}
+.search-logo{
+    
+    background-color: rgb(222, 162, 21);
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:black;
+}
+.search{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+    
+}
+/*box 4*/
+.help{
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    padding-left: 9px;
+    padding-right: 9px; 
+}
+#sign{
+   font-size: 12px;
+   height: 14px;
+   width: 71px;
+   text-align: center;
+   margin-left: 12px;
+   
+  
+}
+#acc{
+    font-size: 14px;
+    font-weight: 700;
+    height: 15px;
+    width: 113px;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+.return{
+    height: 40px;
+    width: 77px;
+   
+
+   
+}
+#ret{
+    font-size: 12px;
+    height: 14px;
+    margin-left: 17px;
+}
+#or{
+    font-size: 14px;
+   font-weight: 700;
+   margin-left: 17px;
+}
+.cart{
+   font-size: 25px;
+   height: 40px;
+   width: 60px;
+   display: flex;
+   align-items: center;
+  
+}
+.cr{
+    font-size: 12px;
+   margin-top: 18px;
+   font-weight: 700;
+}
+.down_bar{
+    height: 39px;
+    background-color:rgb(53, 49, 49);
+    color:white;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.bar_icon{
+    display: flex;
+    font-size: 20px;
+}
+#all{
+    font-size: 14px;
+    margin: 3px;
+}
+
+
+.hero_section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 1600px;
+}
+.hero_msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    position: relative;
+    top: 300px;
+}
+.hero_msg a{
+   color: #007185;
+}
+.shop_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: #e2e7e6;
+}
+.box{
+    height:400px;
+    width:23%;
+    /*border: 2px solid black;*/
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box1_img{
+    height: 325px;
+    background-image: url(box1_image.jpg);
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_content{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.box1_img2{
+    height: 325px;
+    background-image: url(box2_image.jpg);
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_content2{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.box1_img3{
+    height: 325px;
+    background-image: url(box3_image.jpg);
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_content3{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.box1_img4{
+    height: 325px;
+    background-image: url(box4_image.jpg);
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_content4{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.box1_img5{
+    height: 325px;
+    background-image: url(box5_image.jpg);
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_content5{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.box1_img6{
+    height: 325px;
+    background-image: url(box6_image.jpg);
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_content6{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.box1_img7{
+    height: 325px;
+    background-image: url(box7_image.jpg);
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_content7{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.box1_img8{
+    height: 325px;
+    background-image: url(box8_image.jpg);
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_content8{
+   margin-left: 15px;
+   margin-right: 15px;
+}
